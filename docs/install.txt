@@ -1,0 +1,12 @@
+1, download Xampp and run it in your OS
+2, unzip source to webroot/minicrm of Xampp
+3, change sminicrm/inc/config.php to your environment
+	'DBTYPE' => 'mysql',
+	'DBHOST' => 'localhost',
+	'DBNAME' => 'dbname',
+	'DBUSER' => 'dbuser',
+	'DBPASS' => '****',
+4, run SQL Client to create database
+   and copy SQL from db.sql to create tables
+   or open http://localhost/minicrm/admin.php(password:pass1234) to create the tables
+5, enjoy http://localhost/minicrm/
